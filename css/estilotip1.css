@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+
+/*  LAS CARACTERISTICAS GENERALES DE LA WEB */
+*{
+	font-family: 'Lobster', cursive;
+	
+}
+
+#pagewrap {
+    width: 80%;
+    margin:auto;
+}
+
+#tituloLogo {
+	top: 1%;
+	height: 104px;
+	width: auto;
+	
+}
+
+#tituloLogo img {
+		float:left;
+		margin: 0 0 0 2%;
+			
+}
+#tituloLogo #titulo {
+		float:left;
+		margin-left: 15%;
+		
+}
+
+
+
+#cssmenu {
+		clear:both;
+		
+}
+
+
+
+
+
+
+
+
+
+
+.licenciaIDQ{
+		text-align: center;
+		
+}
+
+hr {
+	clear:both;
+	color: #6e583a;
+	
+}
+
+
+
+
