@@ -63,8 +63,46 @@
 		
 		
 		<hr/>
+				
+				
+		<div class="box-ofertas">
+				
+				<div class="box-productoportada">
+					<img src="./images/chealsea-camiseta.jpg" alt="camiseta chealsea" />
+					<span class="nombreproducto">Camiseta del Chealse</span>
+					<span class="portadaprecio">69 €</span>	
+							<a href="#" id="btn">Comprar</a>
+						
+					
+				</div>
+				<div class="box-productoportada">
+					<img src="./images/chealsea-camiseta.jpg" alt="camiseta chealsea" />		
+				</div>
+				<div class="box-productoportada">
+					<img src="./images/chealsea-camiseta.jpg" alt="camiseta chealsea" />		
+				</div>
+				<div class="box-productoportada">
+					<img src="./images/chealsea-camiseta.jpg" alt="camiseta chealsea" />		
+				</div>
+				<div class="box-productoportada">
+					<img src="./images/chealsea-camiseta.jpg" alt="camiseta chealsea" />		
+				</div>
+				
+				
+		</div>
+					
 		
-		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur vulputate ligula, id consectetur diam dapibus faucibus. Vivamus quis ipsum ultrices, feugiat metus at, porttitor nunc. Pellentesque eget vestibulum diam. Ut ut interdum nisl. Quisque fermentum risus quam, a ornare felis sodales sit amet. Curabitur non elit pharetra, interdum lectus nec, porttitor sapien. Fusce eu ex porttitor, sagittis erat at, pretium sem. Quisque nibh nibh, scelerisque non commodo vitae, tempus vitae lectus. Sed id facilisis neque. Quisque eu hendrerit diam.
 
