@@ -58,7 +58,7 @@
 }
 #cssmenu > ul > li > a {
   padding: 17px;
-  font-size: 12px;
+  font-size: 100%;
   letter-spacing: 1px;
   text-decoration: none;
   color: <?php echo $colorlinkreposo; ?>;
