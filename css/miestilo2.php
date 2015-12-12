@@ -1,14 +1,9 @@
 <?php    include("../config.css.inc.php") ?>
 
 
-
-
-@import url(https://fonts.googleapis.com/css?family=Lobster);
-
 /*  LAS CARACTERISTICAS GENERALES DE LA WEB */
 
-
-
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
 
 *{
 	font-family: '<?php echo $tipografia; ?>', cursive, Arial;
@@ -23,35 +18,33 @@
 
 #tituloLogo {
 	top: 1%;
-	height: 104px;
 	width: auto;
-	
+	text-align:center
 }
 
 #tituloLogo img {
-		float:left;
-		margin: 0 0 0 2%;
+		width:40%;
+		
 			
 }
 #tituloLogo h1 {
-		float:left;
-		margin-left: 25%; 
-        
+		        
 		
 }
 
 #titulo {
         
-        color: <?php echo $colortitulo; ?>;
+        color: <?php echo $colorLineaSeparacion; ?>;
 }
 
 
 
-#cssmenu {
-		clear:both;
-       
-		
+.menu2 {
+	width:45%;
+	float:left;
+
 }
+
 
 .licenciaIDQ{
 		text-align: center;
@@ -95,19 +88,15 @@ color:#FFD700;
 /*********** Caja de producto portada ****************/
 
 .box-ofertas{ 
-  
+  	
     background-color: #ffffff;
     border-color: #dddddd;
     border-radius: 0;
     border-style: solid;
     border-width: 1px;
     box-shadow: 0 1px 4px 0 #99a3ad, 0 0 40px #eeeeee;
-    clear: both;
-    display: inline-block;
-    margin: auto;
-    margin-bottom: 1%;
-    position: relative;
-    width: 99%;
+    
+    
 
 }
 
@@ -144,8 +133,13 @@ color:#FFD700;
 
 	
 .capita{
-	text-align:center; /*** Capa centra box-ofertas ***/
+	
+    display: flex;
+    text-align: center;
+		
 }
+
+
 
 
 
@@ -186,7 +180,7 @@ color:#FFD700;
 
 /******************** Producto Portada ***********************/
 .portadaprecio{
-        color:red;
+        color:#007126;
         display:flex;
         padding-left:5%;
         font-size:39px;
@@ -235,6 +229,36 @@ color:#FFD700;
     width: 30%;
 }
 
+
+
+/***************** Panel Configuracion ************/
+
+
+.centrado  {
+		display: block;
+		margin: auto;
+		padding: 1%;
+		text-align: center;
+		width: 94%;
+
+}
+
+
+.centrado-boton{
+		display: block;
+		margin: auto;
+		text-align: center;
+		width: 94%;
+}
+
+#opt1{
+	margin-rigth:250px;
+
+}
+#opt2{
+	margin-left:250px;
+
+}
 
 
 

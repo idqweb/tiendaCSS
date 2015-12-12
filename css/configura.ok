@@ -1,2 +1,2 @@
 header('Content-type: text/css; charset: UTF-8');
-$anchototalweb="15";
+$anchototalweb="100";

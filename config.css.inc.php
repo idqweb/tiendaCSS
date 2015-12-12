@@ -1,15 +1,18 @@
 <?php
     header("Content-type: text/css; charset: UTF-8");
+
+	include("variables.inc.php"); 
   
     /***** Variables Generales - Aspecto - Colores -Tipografias ******/
-    $tipografia = "Lobster";    // Tipografia general de la web
-    $colortitulo = "#e69400";   // Color del id   #titulo
-    $colorLineaSeparacion ="#6e583a"; // es el color del la etiqueta hr
+    $tipografia = $configuracion[1];    // Tipografia general de la web
+    $colortitulo = $configuracion[2];   // Color del id   #titulo
+    $colorLineaSeparacion = $configuracion[6]; // es el color del la etiqueta hr
 
     /***** Variables Tamaños - Anchos y Altos de las pantallas ******/
-    $anchototalweb="80%";
+    $anchototalweb=$configuracion[4];
 
 	/***************** Variables Productos ******************/
-	$colortitulo = "#e69400"; //color titulo producto
+	$colortituloproducto = $configuracion[5]; //color titulo producto
+
   
 ?>

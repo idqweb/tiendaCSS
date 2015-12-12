@@ -4,6 +4,9 @@
 		<meta charset="utf-8"/>
 		<title>Portada - Tienda Deportes</title>
 		
+		<?php include("variables.inc.php") ?>
+		
+		
 		<!-- Etiqueta necesaria para ser Responsive HTML5 -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
@@ -13,7 +16,7 @@
 			<link rel="stylesheet" href="./css/estilomenu.php" />
 		
 		<!-- Los estilos css de la página -->
-			<link rel="stylesheet" href="./css/miestilo1.php"/>
+			<link rel="stylesheet" href="./css/<?php echo $configuracion[0]; ?>"/>
 		
 			
 		<!----  JAVASCRIPT del MENU ------------>
@@ -27,10 +30,14 @@
 			<div id="pagewrap">
 				<header>
 				<div id="tituloLogo">
-					<img src="./images/logo.png" />
+					<img src="./images/<?php echo $configuracion[3]; ?>" />
 					<h1 id="titulo"> Tienda de venta de productos deportivos </h1>
 				</div>
-								
+			
+					
+			</header>
+			
+		<div class="menu2">					
 				<!------------ Menu ----------->
 				<div id='cssmenu'>
 					<ul>
@@ -40,12 +47,12 @@
 					</ul>
 				</div>
 			<!------------ Menu ------------>
-					
-			</header>
+				
+				
+				
 			
-			<section>	
-		
-		<hr/>
+			<hr/>
+				
 				<h3	id="subtituloportada">¿Quienes somos?</h3>
 				<div id="textoportada">
 					Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, 
@@ -55,6 +62,7 @@
 					incluye versiones de Lorem Ipsum.
 				</div>
 		
+		</div>
 				
 		<div class="capita">
 			<div class="box-ofertas">
@@ -63,41 +71,44 @@
 				
 				
 					<div class="box-productoportada">
+						<span class="destacado"><img src="./images/producto_destacado.png" alt="producto destacado" /></span>
 						<span class="nombreproducto">Camiseta Chealse</span>
 						<img src="./images/chealsea-camiseta.jpg" alt="camiseta chealsea" />
-						<span class="portadaprecio">69 €</span>	
+						<span class="portadaprecio">59 €</span>	
 								<a href="#" id="btn">Comprar</a>
 					</div>
 					
 					
 					<div class="box-productoportada">
-						<span class="nombreproducto">Camiseta del Chealse</span>
-						<img src="./images/chealsea-camiseta.jpg" alt="camiseta chealsea" />
-						<span class="portadaprecio">69 €</span>	
-								<a href="#" id="btn">Comprar</a>
-					</div>
+									<span class="nombreproducto">Zapatilla Assics 2</span>
+									<img src="./images/zapatilla-assics2.jpg" alt="Zapatilla Assics 2" />
+									<span class="portadaprecio">69 €</span>	
+											<a href="#" id="btn">Comprar</a>
+					</div>	
 					
 					
-					<div class="box-productoportada">
-						<span class="nombreproducto">Camiseta del Chealse</span>
-						<img src="./images/chealsea-camiseta.jpg" alt="camiseta chealsea" />
-						<span class="portadaprecio">69 €</span>	
-								<a href="#" id="btn">Comprar</a>
-					</div>
 					
 					<div class="box-productoportada">
-						<span class="nombreproducto">Camiseta del Chealse</span>
-						<img src="./images/chealsea-camiseta.jpg" alt="camiseta chealsea" />
-						<span class="portadaprecio">69 €</span>	
-								<a href="#" id="btn">Comprar</a>
+						<span class="destacado"><img src="./images/producto_destacado.png" alt="producto destacado" /></span>
+						<span class="nombreproducto">Camiseta Ponferradina</span>
+						<img src="./images/camisetaponferradina.jpg" alt="Camiseta Ponferradina" />
+						<span class="portadaprecio">79 €</span>	
+						<a href="#" id="btn">Comprar</a>
+					</div>
+					
+					<div class="box-productoportada">
+						<span class="nombreproducto">Zapatilla Adidas</span>
+						<img src="./images/zapatilla-adidas.jpg" alt="Zapatilla Adidas" />
+						<span class="portadaprecio">49 €</span>	
+						<a href="#" id="btn">Comprar</a>
 					</div>
 				
 					<div class="box-productoportada">
-						<span class="nombreproducto">Camiseta del Chealse</span>
-						<img src="./images/chealsea-camiseta.jpg" alt="camiseta chealsea" />
-						<span class="portadaprecio">69 €</span>	
-								<a href="#" id="btn">Comprar</a>
-					</div>	
+						<span class="nombreproducto">Camiseta Bilbao</span>
+						<img src="./images/camisetabilbao.jpg" alt="Camiseta bilbao" />
+						<span class="portadaprecio">99 €</span>	
+						<a href="#" id="btn">Comprar</a>
+					</div>
 				
 				
 			</div>
@@ -107,7 +118,7 @@
 		
 		
     
-				</section>
+		
 			<footer>
 					<hr/>
 					

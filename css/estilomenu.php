@@ -1,9 +1,11 @@
 <?php
     header("Content-type: text/css; charset: UTF-8");
 
-	$colorbarra = "#685233"; // marron de la barra
-	$colorlinkreposo ="#e69400";
-	$colorsobrelink="#ffffff";
+    include("../variables.inc.php");   
+
+	$colorbarra = $configuracion[7]; // marron de la barra
+	$colorlinkreposo =$configuracion[8];
+	$colorsobrelink= $configuracion[9];
   
 ?>
 

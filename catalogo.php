@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>Catalogo - Tienda Deportes</title>
+				
+		<?php include("variables.inc.php") ?>
 		
 		<!-- Etiqueta necesaria para ser Responsive HTML5 -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,7 +15,7 @@
 			<link rel="stylesheet" href="./css/estilomenu.php" />
 		
 		<!-- Los estilos css de la página -->
-			<link rel="stylesheet" href="./css/miestilo1.php"/>
+			<link rel="stylesheet" href="./css/<?php echo $configuracion[0]; ?>"/>
 		
 			
 		<!----  JAVASCRIPT del MENU ------------>
@@ -27,10 +29,12 @@
 			<div id="pagewrap">
 				<header>
 				<div id="tituloLogo">
-					<img src="./images/logo.png" />
+					<img src="./images/<?php echo $configuracion[3]; ?>" />
 					<h1 id="titulo"> Tienda de venta de productos deportivos </h1>
 				</div>
-								
+							
+			</header>
+				
 				<!------------ Menu ----------->
 				<div id='cssmenu'>
 					<ul>
@@ -40,8 +44,9 @@
 					</ul>
 				</div>
 			<!------------ Menu ------------>
-					
-			</header>
+				
+				
+				
 			
 			<section>	
 		
@@ -64,9 +69,9 @@
 								<div class="box-productoportada">
 									<span class="nombreproducto">Camiseta Bilbao</span>
 									<img src="./images/camisetabilbao.jpg" alt="Camiseta bilbao" />
-									<span class="portadaprecio">169 €</span>	
+									<span class="portadaprecio">99 €</span>	
 											<a href="#" id="btn">Comprar</a>
-								</div>
+							</div>
 
 
 								<div class="box-productoportada">
@@ -77,11 +82,12 @@
 								</div>
 
 								<div class="box-productoportada">
+									<span class="destacado"><img src="./images/producto_destacado.png" alt="producto destacado" /></span>
 									<span class="nombreproducto">Camiseta Ponferradina</span>
 									<img src="./images/camisetaponferradina.jpg" alt="Camiseta Ponferradina" />
 									<span class="portadaprecio">69 €</span>	
 											<a href="#" id="btn">Comprar</a>
-								</div>
+							</div>
 
 								<div class="box-productoportada">
 									<span class="nombreproducto">Camiseta Atletico</span>
@@ -100,6 +106,7 @@
 
 
 								<div class="box-productoportada">
+									<span class="destacado"><img src="./images/producto_destacado.png" alt="producto destacado" /></span>
 									<span class="nombreproducto">Zapatilla Assics</span>
 									<img src="./images/zapatilla-assics.jpg" alt="Zapatilla Assics" />
 									<span class="portadaprecio">69 €</span>	
@@ -112,7 +119,7 @@
 									<img src="./images/zapatilla-adidas.jpg" alt="Zapatilla Adidas" />
 									<span class="portadaprecio">69 €</span>	
 											<a href="#" id="btn">Comprar</a>
-								</div>
+							</div>
 
 
 								<div class="box-productoportada">

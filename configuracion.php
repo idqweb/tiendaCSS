@@ -2,7 +2,11 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8"/>
-		<title>Portada - Tienda Deportes</title>
+		<title>Panel - Configuración</title>
+		
+		
+		<?php include("variables.inc.php") ?>
+		
 		
 		<!-- Etiqueta necesaria para ser Responsive HTML5 -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,7 +17,7 @@
 			<link rel="stylesheet" href="./css/estilomenu.php" />
 		
 		<!-- Los estilos css de la página -->
-			<link rel="stylesheet" href="./css/miestilo1.php"/>
+			<link rel="stylesheet" href="./css/<?php echo $configuracion[0]; ?>"/>
 		
 			
 		<!----  JAVASCRIPT del MENU ------------>
@@ -27,7 +31,7 @@
 			<div id="pagewrap">
 				<header>
 				<div id="tituloLogo">
-					<img src="./images/logo.png" />
+					<img src="./images/<?php echo $configuracion[3]; ?>" />
 					<h1 id="titulo"> Tienda de venta de productos deportivos </h1>
 				</div>
 								
@@ -43,14 +47,19 @@
 						
 			</header>
 			
+				<p> Selecciona uno de los dos posibles Themes" </p>
 				
 				<form name="opcionesCompletas" id="opcionesCompletas" method="post" action="selecTheme1.php">
-					
-					<img src="./images/tiendaOp1.png"/>
-					
-					<input type="radio" name="opt1" value="opt1" checked="checked"/>
-					
-					<input type="submit" value="Selecciona"/>
+					<div class="centrado">
+						<img src="./images/tiendaOp1.png"/>
+						<img src="./images/tiendaOp2.png"/>
+					</div>
+					<div class="centrado-boton">
+						<input type="radio" id="opt1" name="optcion" value="opt1" checked="checked"/>
+						<input type="radio" id="opt2" name="optcion" value="opt2"  />
+					</div>
+						
+					<input class="centrado-boton" type="submit" value="Selecciona"/>
 					
 				</form>
 				
@@ -66,18 +75,6 @@
 					<input type="submit" value="Enviar"/>
 					
 				</form>
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
 				
 				
 				
@@ -100,27 +97,6 @@
 				
 				?>
 				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-			
 			<footer>
 					<hr/>
 					
