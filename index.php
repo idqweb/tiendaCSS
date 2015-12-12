@@ -38,17 +38,15 @@
 			</header>
 			
 		<div class="menu2">					
-				<!------------ Menu ----------->
-				<div id='cssmenu'>
-					<ul>
-					   <li	class='active'><a href='index.php'>Inicio</a></li>
-					   <li ><a href='catalogo.php'>Catalogo</a>
-					   <li><a href='configuracion.php'>Configuracion</a></li>
-					</ul>
-				</div>
-			<!------------ Menu ------------>
-				
-				
+				<!------------ MENU  ----------->
+					<div id='cssmenu'>
+						<ul>
+						   <li	class='active'><a href='index.php'>Inicio</a></li>
+						   <li ><a href='catalogo.php'>Catalogo</a>
+						   <li><a href='configuracion.php'>Configuracion</a></li>
+						</ul>
+					</div>
+				<!------------ FINAL MENU ------------>
 				
 			
 			<hr/>

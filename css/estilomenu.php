@@ -4,8 +4,8 @@
     include("../variables.inc.php");   
 
 	$colorbarra = $configuracion[7]; // marron de la barra
-	$colorlinkreposo =$configuracion[8];
-	$colorsobrelink= $configuracion[9];
+	$colorlinkreposo =$configuracion[8]; //color de Menu Letra
+	$colorsobrelink= $configuracion[9]; // color Menu Letra Sobre Link
   
 ?>
 

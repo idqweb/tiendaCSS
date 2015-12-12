@@ -16,7 +16,7 @@
 		
 		<!-- Los estilos css de la página -->
 			<link rel="stylesheet" href="./css/<?php echo $configuracion[0]; ?>"/>
-		
+	
 			
 		<!----  JAVASCRIPT del MENU ------------>
 		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -35,16 +35,15 @@
 							
 			</header>
 				
-				<!------------ Menu ----------->
-				<div id='cssmenu'>
-					<ul>
-					   <li	class='active'><a href='index.php'>Inicio</a></li>
-					   <li ><a href='catalogo.php'>Catalogo</a>
-					   <li><a href='configuracion.php'>Configuracion</a></li>
-					</ul>
-				</div>
-			<!------------ Menu ------------>
-				
+				<!------------ MENU  ----------->
+					<div id='cssmenu'>
+						<ul>
+						   <li	class='active'><a href='index.php'>Inicio</a></li>
+						   <li ><a href='catalogo.php'>Catalogo</a>
+						   <li><a href='configuracion.php'>Configuracion</a></li>
+						</ul>
+					</div>
+				<!------------ FINAL MENU ------------>
 				
 				
 			
@@ -82,11 +81,13 @@
 								</div>
 
 								<div class="box-productoportada">
+									
 									<span class="destacado"><img src="./images/producto_destacado.png" alt="producto destacado" /></span>
 									<span class="nombreproducto">Camiseta Ponferradina</span>
 									<img src="./images/camisetaponferradina.jpg" alt="Camiseta Ponferradina" />
 									<span class="portadaprecio">69 €</span>	
 											<a href="#" id="btn">Comprar</a>
+									
 							</div>
 
 								<div class="box-productoportada">
